@@ -1,0 +1,32 @@
+{
+  "name": "hackaton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel-node": "babel-node --presets=latest",
+    "start": "nodemon --exec npm run babel-node -- ./index.js",
+    "build": "babel src -d dist"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "matrix-protos": "0.0.25",
+    "nfc-pcsc": "^0.6.2",
+    "node-hid": "^0.7.3",
+    "zbar": "0.0.4",
+    "zeromq": "^4.6.0",
+    "zmq": "^2.15.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "nodemon": "^1.18.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
