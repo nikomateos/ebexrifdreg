@@ -1,6 +1,6 @@
 const request = require('axios');
 const EB_BASE_URL = 'https://www.eventbriteapi.com/v3';
-const OAUTH_TOKEN = 'LFJJDVBAR5LKEUAI2WUB';
+const OAUTH_TOKEN = 'PUTYOURKEYHERE';
 
 class Eventbrite {
 
